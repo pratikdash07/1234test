@@ -16,9 +16,31 @@ Flowbit is an AI-powered, multi-format document processing system that classifie
 
 ## Tech Stack
 
-- **Backend:** Python, FastAPI, LangChain, Redis
+- **Backend:** Python, FastAPI, LangChain, Redis , Google Gemini API
 - **Frontend:** React, Vite (custom UI)
 - **Containerization:** Docker
+
+## Gemini API Integration
+
+This project uses the [Google Gemini API](https://ai.google.dev/gemini-api/docs) to power large language model (LLM) capabilities for document classification and intent detection. The backend integrates Gemini via the official Python SDK, using the `gemini-2.0-flash` model for fast, accurate results.
+
+**How it's used:**
+- The Classifier Agent sends document content to Gemini using a prompt with few-shot examples.
+- Gemini returns the predicted intent or label, which is then used to route the document to the appropriate specialized agent.
+- This enables robust, context-aware classification for Emails, JSON, and PDF documents.
+
+**Example Gemini API usage in Python:**
+from google import genai
+
+client = genai.Client(api_key="YOUR_API_KEY")
+response = client.models.generate_content(
+model="gemini-2.0-flash",
+contents="Classify this document: ...",
+)
+print(response.text)
+
+For more, see the [Gemini API docs](https://ai.google.dev/gemini-api/docs).
+
 
 ## Project Structure
 multi-agent-system/
@@ -94,9 +116,50 @@ flowchart TD
     K --> L[Frontend UI Shows Results & Trace]
 ```
 
+> **Note:** The Classifier Agent leverages the Gemini API (LLM) for advanced document classification and intent detection.
+
+
+## How It Works!
+
+The Flowbit system uses a modular, agentic pipeline:
+
+1. **Document Upload:**  
+   The user uploads a file (Email, JSON, or PDF) via the frontend UI.
+
+2. **Classifier Agent:**  
+   - Detects the document’s format and business intent using a combination of schema matching, Gemini LLM prompting, and fallback rules.
+   - Sends a prompt with few-shot examples to the Gemini API for robust intent detection.
+   - Passes routing metadata to the memory store and determines which specialized agent should process the file.
+
+
+3. **Specialized Agents:**
+   - **Email Agent:**  
+     Extracts sender, subject, urgency, tone, and issue/request from emails. Determines if escalation or routine action is needed.
+   - **JSON Agent:**  
+     Validates the structure of incoming JSON files, distinguishes between Invoice and RFQ schemas, and flags anomalies (e.g., missing fields, type errors).
+   - **PDF Agent:**  
+     Extracts text and line-item data from PDFs, flags invoices over a threshold, and detects compliance mentions (e.g., “GDPR”, “FDA”).
+
+4. **Action Router:**  
+   - Based on the agent output, triggers follow-up actions such as escalating to CRM, flagging compliance, or logging an alert, via simulated REST API calls.
+   - Includes retry logic for reliability.
+
+5. **Memory Store & File Logging:**  
+   - All agent decisions, extracted fields, and actions are logged in Redis for traceability.
+   - Additionally, a file-based log (`logs/processing.log`) records all processing events and errors for audit and debugging.
+   - All agent decisions and actions are logged both in Redis (for fast retrieval and chaining) and in a persistent log file at logs/processing.log for audit, debugging, and compliance purposes.
+
+6. **Frontend Display:**  
+   - The frontend fetches and displays all results, including classification, agent outputs, action router status, and full trace logs, in a recruiter-friendly UI.
+
+
 ## Sample Screenshots
 
-![UI Screenshot](./docs/ui_screenshot.png)
+![UI Screenshot](./docs/Landing_page.png)
+![Upload Section](./docs/Input_location.png)
+![About Developer Section](./docs/Abt_Developer_Section.png)
+![Result](./docs/Output_Result.png)
+![Action Router Output](./docs/Action_Router_op.png)
 
 ## License
 
