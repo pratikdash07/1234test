@@ -70,7 +70,23 @@ The project supports Docker for simplified deployment of both backend and fronte
 
 ## Architecture Diagram
 
-![Architecture Diagram](./docs/architecture_diagram.png)
+```
+flowchart TD
+    A[User Uploads Document<br/>(Email, JSON, PDF)] --> B{Classifier Agent}
+    B -->|Email| C[Email Agent<br/>Extracts sender, urgency, tone, issue]
+    B -->|JSON| D[JSON Agent<br/>Schema validation, anomaly detection]
+    B -->|PDF| E[PDF Agent<br/>Extracts invoice/policy data, flags]
+    C --> F{Action Router}
+    D --> F
+    E --> F
+    F -->|Escalate| G[POST /crm/escalate]
+    F -->|Alert| H[POST /risk_alert]
+    F -->|Flag| I[POST /compliance/flag]
+    F -->|Accept| J[POST /compliance/accept]
+    F --> K[Log in Memory Store<br/>(Redis)]
+    K --> L[Frontend UI<br/>Shows Results & Trace]
+```
+```
 
 ## Sample Screenshots
 
