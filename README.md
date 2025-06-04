@@ -121,8 +121,6 @@ flowchart TD
 
 ## How It Works!
 
-The Flowbit system uses a modular, agentic pipeline:
-
 1. **Document Upload:**  
    The user uploads a file (Email, JSON, or PDF) via the frontend UI.
 
