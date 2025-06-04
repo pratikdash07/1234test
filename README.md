@@ -71,7 +71,7 @@ The project supports Docker for simplified deployment of both backend and fronte
 ## Architecture Diagram
 
 
-flowchart TD
+```flowchart TD
     A[User Uploads Document<br/>(Email, JSON, PDF)] --> B{Classifier Agent}
     B -->|Email| C[Email Agent<br/>Extracts sender, urgency, tone, issue]
     B -->|JSON| D[JSON Agent<br/>Schema validation, anomaly detection]
