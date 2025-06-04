@@ -70,7 +70,7 @@ The project supports Docker for simplified deployment of both backend and fronte
 
 ## Architecture Diagram
 
-```
+
 flowchart TD
     A[User Uploads Document<br/>(Email, JSON, PDF)] --> B{Classifier Agent}
     B -->|Email| C[Email Agent<br/>Extracts sender, urgency, tone, issue]
@@ -85,8 +85,7 @@ flowchart TD
     F -->|Accept| J[POST /compliance/accept]
     F --> K[Log in Memory Store<br/>(Redis)]
     K --> L[Frontend UI<br/>Shows Results & Trace]
-```
-```
+
 
 ## Sample Screenshots
 
