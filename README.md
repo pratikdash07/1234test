@@ -91,9 +91,7 @@ flowchart TD
 
     F --> K[Log in Memory Store: Redis]
 
-    K --> L[Frontend UI Shows Results & Trace]
-
-
+    K --> L[Frontend UI Shows Results & Trace]```
 
 ## Sample Screenshots
 
