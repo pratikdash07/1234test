@@ -78,7 +78,7 @@ The project supports Docker for simplified deployment of both backend and fronte
 
 ## License
 
-[Specify your license here]
+MIT
 
 ## Author
 
