@@ -21,6 +21,38 @@ class ClassifierAgent:
             "Fraud Risk": ["fraud", "suspicious", "unauthorized", "risk", "scam"]
         }
 
+    def generate_few_shot_prompt(self, content: str) -> str:
+        return f"""
+You are a business document classifier. Classify this document into one of:
+[RFQ, Complaint, Invoice, Regulation, Fraud Risk]
+
+Here are some examples:
+
+Example 1:
+Content: "Please send me a quote for 100 units of product X."
+Label: RFQ
+
+Example 2:
+Content: "I am unhappy with the service and want to file a complaint."
+Label: Complaint
+
+Example 3:
+Content: "This invoice shows a total amount due of $12,000."
+Label: Invoice
+
+Example 4:
+Content: "Our policy is compliant with GDPR and FDA."
+Label: Regulation
+
+Example 5:
+Content: "We have detected unauthorized activity. This may be fraud."
+Label: Fraud Risk
+
+Now classify the following document. Respond with only the label.
+Content:
+{content}
+"""
+
     def detect_format(self, file_path, content):
         ext = os.path.splitext(file_path)[1].lower()
         if ext == ".json":
@@ -39,16 +71,22 @@ class ClassifierAgent:
         return "Unknown"
 
     def detect_intent(self, content):
-        # Use Gemini LLM for intent detection
-        prompt = ChatPromptTemplate.from_template("""
-You are a business document classifier. Classify this document into one of:
-[RFQ, Complaint, Invoice, Regulation, Fraud Risk]
+        # --- 1. Schema Matching for JSON ---
+        try:
+            data = json.loads(content)
+            # Invoice schema
+            if all(key in data for key in ["order_id", "customer", "amount"]):
+                return "Invoice"
+            # RFQ schema
+            if all(key in data for key in ["rfq_id", "customer", "items"]):
+                return "RFQ"
+            # Add more schemas as needed
+        except Exception:
+            pass
 
-Respond with only the label.
-
-Content:
-{content}
-""")
+        # --- 2. LLM with Few-Shot Prompt ---
+        prompt_str = self.generate_few_shot_prompt(content)
+        prompt = ChatPromptTemplate.from_template(prompt_str)
         chain = prompt | self.llm
         try:
             result = chain.invoke({"content": content}).content.strip()
@@ -57,7 +95,8 @@ Content:
                     return label
         except Exception:
             pass
-        # Fallback: rule-based intent detection
+
+        # --- 3. Fallback: Rule-based intent detection ---
         content_lower = content.lower()
         for intent, keywords in self.intent_examples.items():
             for kw in keywords:

@@ -1,63 +1,78 @@
 import json
-import os
 from core.memory.redis_client import MemoryStore
 
 class JSONAgent:
     def __init__(self):
-        self.required_fields = {
-            "order_id": int,
-            "customer": str,
-            "amount": float,
-            "items": list
-        }
         self.memory_store = MemoryStore()
 
-    def parse(self, content):
+    def process(self, file_path, content, classification):
+        source_id = file_path.split('.')[0]
         try:
             data = json.loads(content)
-        except json.JSONDecodeError:
-            return {"valid": False, "error": "Invalid JSON format", "anomalies": ["Invalid JSON"]}
+        except Exception:
+            self.memory_store.log_metadata(
+                source_id,
+                {
+                    "error": "Invalid JSON",
+                    "classification": classification
+                }
+            )
+            return {
+                "valid": False,
+                "type": None,
+                "data": None,
+                "anomalies": ["Invalid JSON"]
+            }
 
         anomalies = []
-        for field, field_type in self.required_fields.items():
-            if field not in data:
-                anomalies.append(f"Missing field: {field}")
-            elif not isinstance(data[field], field_type):
-                anomalies.append(f"Type error: {field} should be {field_type.__name__}")
+        detected_type = None
 
-        result = {
-            "valid": len(anomalies) == 0,
-            "data": data if len(anomalies) == 0 else None,
-            "anomalies": anomalies
-        }
-        return result
+        # --- Invoice Schema ---
+        invoice_required = {"order_id", "customer", "amount"}
+        if invoice_required.issubset(data.keys()):
+            detected_type = "Invoice"
+            if not isinstance(data.get("order_id"), int):
+                anomalies.append("order_id should be int")
+            if not isinstance(data.get("amount"), (int, float)):
+                anomalies.append("amount should be a number")
 
-    def process(self, file_path, content, classification):
-        source_id = os.path.splitext(os.path.basename(file_path))[0]
+        # --- RFQ Schema ---
+        rfq_required = {"rfq_id", "customer", "items"}
+        if rfq_required.issubset(data.keys()):
+            detected_type = "RFQ"
+            if not isinstance(data.get("rfq_id"), int):
+                anomalies.append("rfq_id should be int")
+            if not isinstance(data.get("items"), list):
+                anomalies.append("items should be a list")
 
-        # Log metadata
+        # If no schema matched
+        if not detected_type:
+            anomalies.append("Unknown JSON schema")
+            # Log alert in Redis
+            self.memory_store.log_metadata(
+                source_id,
+                {
+                    "alert": "Unknown JSON schema",
+                    "classification": classification,
+                    "data": data
+                }
+            )
+
+        # Log extracted fields and anomalies
         self.memory_store.log_metadata(
             source_id,
             {
-                "source": "json",
-                "filename": file_path,
-                "classification": classification
+                "json_agent_fields": {
+                    "type": detected_type,
+                    "data": data,
+                    "anomalies": anomalies
+                }
             }
         )
 
-        result = self.parse(content)
-        self.memory_store.log_agent_fields(source_id, "json_agent", result)
-
-        if not result["valid"]:
-            self.memory_store.log_action(source_id, "alert")
-        else:
-            self.memory_store.log_action(source_id, "accept")
-
-        trace = {
-            "step": "json_processed",
-            "result": result,
-            "action": "alert" if not result["valid"] else "accept"
+        return {
+            "valid": len(anomalies) == 0,
+            "type": detected_type,
+            "data": data,
+            "anomalies": anomalies
         }
-        self.memory_store.log_decision_trace(source_id, trace)
-
-        return result

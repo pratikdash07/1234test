@@ -2,118 +2,84 @@
 
 ## Overview
 
-A modular, multi-agent backend system that classifies, extracts, and routes business documents (Email, JSON, PDF), triggers automated actions, and logs all steps for auditability. Built with Python, FastAPI, Redis, and Google Gemini LLM.
-
----
+Flowbit is an AI-powered, multi-format document processing system that classifies, extracts, and routes business documents such as Emails, JSON files, and PDFs. It features a modular multi-agent architecture, LLM-enhanced intelligence, automated action routing, and full auditability.
 
 ## Features
 
-- **Classifier Agent:** Detects document format and business intent (LLM-powered, with fallback).
-- **Email Agent:** Extracts sender, urgency, tone, and triggers escalation or logs.
-- **JSON Agent:** Validates schema, flags anomalies.
-- **PDF Agent:** Extracts text, flags high invoice totals or compliance mentions.
-- **Action Router:** Triggers simulated REST actions with retry logic.
-- **Shared Memory:** All steps and decisions logged in Redis.
-- **LLM Integration:** Uses Google Gemini for intent detection, with fallback logic.
-- **Robust to large/bulky inputs.**
+- Multi-format document classification (Email, JSON, PDF)
+- Business intent detection (RFQ, Complaint, Invoice, Regulation, Fraud Risk)
+- Specialized agents for Email, JSON, and PDF
+- Automated action routing with retry logic
+- Shared memory store for audit and traceability
+- Modern React-based frontend for file upload and result display
+- Dockerized backend and frontend for deployment
 
----
+## Tech Stack
 
-## Setup
+- **Backend:** Python, FastAPI, LangChain, Redis
+- **Frontend:** React, Vite (custom UI)
+- **Containerization:** Docker
 
-1. **Clone the repo & create a virtual environment:**
-    ```
-    git clone https://github.com/yourusername/flowbit_multi_agent.git
-    cd flowbit_multi_agent
-    python -m venv venv
-    venv\Scripts\activate  # On Windows
-    ```
-
-2. **Install dependencies:**
-    ```
-    pip install -r requirements.txt
-    ```
-
-3. **Configure environment:**
-    - Create a `.env` file in the root:
-      ```
-      GOOGLE_API_KEY=your-google-api-key-here
-      ```
-
-4. **Start Redis server:**
-    - On Windows: Run `redis-server.exe` in a terminal.
-
-5. **Start FastAPI servers:**
-    - Main app:
-      ```
-      uvicorn main:app --reload
-      ```
-    - Dummy endpoints (in a new terminal):
-      ```
-      uvicorn main:app --port 8001
-      ```
-
-6. **Test with sample files:**
-    ```
-    curl -X POST -F "file=@samples/emails/complaint_escalate.eml" http://localhost:8000/process-file
-    ```
-
----
-
-## Folder Structure
-
-.
+## Project Structure
+multi-agent-system/
 ├── agents/
-│ ├── classifier_agent/
-│ ├── email_agent/
-│ ├── json_agent/
-│ └── pdf_agent/
 ├── core/
-│ ├── memory/
-│ └── routers/
-├── samples/
-│ ├── emails/
-│ ├── jsons/
-│ └── pdfs/
-├── tests/
+├── frontend/
+│ ├── public/
+│ ├── src/
+│ ├── package.json
 ├── main.py
 ├── requirements.txt
 ├── .env
 └── README.md
 
----
+## Frontend
 
-## Example Output
+The frontend is a React application that provides a clean, modern UI for uploading documents and displaying detailed processing results, including classification, urgency, tone, and action routing outcomes.
 
-{
-"classification": {"format": "Email", "intent": "Complaint"},
-"processing_result": {...},
-"action_router_result": {"status": "success", ...},
-"full_trace": {...}
-}
+- Tab title and favicon are customized for project branding.
+- Displays all results returned by the backend: classification, processing results, agent processing, action router responses, and full trace logs.
 
----
+### Running the Frontend
 
-## Testing
+1. Navigate to the `frontend/` directory.
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Access the UI at [http://localhost:5173/demo](http://localhost:5173/demo)
 
-Run all unit tests:
-python -m unittest discover
+## Backend
 
+The backend is a FastAPI server that runs the multi-agent pipeline.
 
----
+### Running the Backend
 
-## Docker & UI
+1. Create and activate a Python virtual environment.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Set environment variables in `.env`.
+4. Start the backend: `uvicorn main:app --reload`
 
-- Dockerization and UI integration instructions will be added in the next commit.
+## Usage
 
----
+- Upload documents via the frontend.
+- The backend processes each document through classification, agent extraction, and action routing.
+- Results are displayed in the frontend UI.
 
-## Author
+## Dockerization
 
-- Pratik Dash
+The project supports Docker for simplified deployment of both backend and frontend.
 
----
+## Architecture Diagram
+
+![Architecture Diagram](./docs/architecture_diagram.png)
+
+## Sample Screenshots
+
+![UI Screenshot](./docs/ui_screenshot.png)
 
 ## License
 
-MIT
+[Specify your license here]
+
+## Author
+
+Pratik Dash
