@@ -4,7 +4,7 @@ from datetime import datetime
 from typing import Dict, Any, Optional
 
 class MemoryStore:
-    def __init__(self, host="localhost", port=6379, db=0):
+    def __init__(self, host="redis", port=6379, db=0):
         self.conn = redis.Redis(host=host, port=port, db=db, decode_responses=True)
 
     def _make_key(self, source_id: str) -> str:
