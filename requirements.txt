@@ -8,3 +8,4 @@ uvicorn
 faker
 python-dotenv
 requests
+apscheduler

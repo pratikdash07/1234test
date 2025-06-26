@@ -1,0 +1,2173 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is 2CD7-88B3
+C:.
++---.next
+|   +---cache
+|   |   +---swc
+|   |   |   \---plugins
+|   |   |       \---v7_windows_x86_64_8.0.0
+|   |   \---webpack
+|   |       +---client-development
+|   |       +---client-development-fallback
+|   |       \---server-development
+|   +---server
+|   |   +---app
+|   |   |   \---api
+|   |   |       +---executions
+|   |   |       \---trigger
+|   |   \---vendor-chunks
+|   +---static
+|   |   +---chunks
+|   |   |   \---app
+|   |   |       \---api
+|   |   |           +---executions
+|   |   |           \---trigger
+|   |   +---development
+|   |   \---webpack
+|   \---types
+|       \---app
+|           \---api
+|               +---executions
+|               \---trigger
++---app
+|   +---api
+|   |   +---executions
+|   |   |   \---[id]
+|   |   +---hooks
+|   |   |   \---[workflowId]
+|   |   +---integration-guide
+|   |   +---langflow
+|   |   |   \---runs
+|   |   |       \---[id]
+|   |   \---trigger
+|   \---sample-data
++---components
+|   \---ui
++---hooks
++---lib
++---node_modules
+|   +---.bin
+|   +---@alloc
+|   |   \---quick-lru
+|   +---@babel
+|   |   \---runtime
+|   |       +---helpers
+|   |       |   \---esm
+|   |       \---regenerator
+|   +---@emnapi
+|   +---@floating-ui
+|   |   +---core
+|   |   |   \---dist
+|   |   +---dom
+|   |   |   \---dist
+|   |   +---react-dom
+|   |   |   \---dist
+|   |   \---utils
+|   |       +---dist
+|   |       \---dom
+|   +---@hookform
+|   |   \---resolvers
+|   |       +---ajv
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---arktype
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---class-validator
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---computed-types
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---dist
+|   |       +---effect-ts
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---fluentvalidation-ts
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---io-ts
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---joi
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---nope
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---superstruct
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---typanion
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---typebox
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---typeschema
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---valibot
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---vest
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---vine
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       +---yup
+|   |       |   +---dist
+|   |       |   \---src
+|   |       |       \---__tests__
+|   |       |           +---__fixtures__
+|   |       |           \---__snapshots__
+|   |       \---zod
+|   |           +---dist
+|   |           \---src
+|   |               \---__tests__
+|   |                   +---__fixtures__
+|   |                   \---__snapshots__
+|   +---@img
+|   |   \---sharp-win32-x64
+|   |       \---lib
+|   +---@isaacs
+|   |   \---cliui
+|   |       \---build
+|   |           \---lib
+|   +---@jridgewell
+|   |   +---gen-mapping
+|   |   |   \---dist
+|   |   |       \---types
+|   |   +---resolve-uri
+|   |   |   \---dist
+|   |   |       \---types
+|   |   +---set-array
+|   |   |   \---dist
+|   |   |       \---types
+|   |   +---sourcemap-codec
+|   |   |   \---dist
+|   |   |       \---types
+|   |   \---trace-mapping
+|   |       \---dist
+|   |           \---types
+|   +---@next
+|   |   +---env
+|   |   |   \---dist
+|   |   \---swc-win32-x64-msvc
+|   +---@nodelib
+|   |   +---fs.scandir
+|   |   |   \---out
+|   |   |       +---adapters
+|   |   |       +---providers
+|   |   |       +---types
+|   |   |       \---utils
+|   |   +---fs.stat
+|   |   |   \---out
+|   |   |       +---adapters
+|   |   |       +---providers
+|   |   |       \---types
+|   |   \---fs.walk
+|   |       \---out
+|   |           +---providers
+|   |           +---readers
+|   |           \---types
+|   +---@pkgjs
+|   |   \---parseargs
+|   |       +---examples
+|   |       \---internal
+|   +---@radix-ui
+|   |   +---number
+|   |   |   \---dist
+|   |   +---primitive
+|   |   |   \---dist
+|   |   +---react-accordion
+|   |   |   \---dist
+|   |   +---react-alert-dialog
+|   |   |   +---dist
+|   |   |   \---src
+|   |   +---react-arrow
+|   |   |   \---dist
+|   |   +---react-aspect-ratio
+|   |   |   \---dist
+|   |   +---react-avatar
+|   |   |   \---dist
+|   |   +---react-checkbox
+|   |   |   \---dist
+|   |   +---react-collapsible
+|   |   |   \---dist
+|   |   +---react-collection
+|   |   |   \---dist
+|   |   +---react-compose-refs
+|   |   |   \---dist
+|   |   +---react-context
+|   |   |   \---dist
+|   |   +---react-context-menu
+|   |   |   \---dist
+|   |   +---react-dialog
+|   |   |   \---dist
+|   |   +---react-direction
+|   |   |   \---dist
+|   |   +---react-dismissable-layer
+|   |   |   \---dist
+|   |   +---react-dropdown-menu
+|   |   |   \---dist
+|   |   +---react-focus-guards
+|   |   |   \---dist
+|   |   +---react-focus-scope
+|   |   |   \---dist
+|   |   +---react-hover-card
+|   |   |   \---dist
+|   |   +---react-id
+|   |   |   \---dist
+|   |   +---react-label
+|   |   |   \---dist
+|   |   +---react-menu
+|   |   |   \---dist
+|   |   +---react-menubar
+|   |   |   \---dist
+|   |   +---react-navigation-menu
+|   |   |   \---dist
+|   |   +---react-popover
+|   |   |   \---dist
+|   |   +---react-popper
+|   |   |   \---dist
+|   |   +---react-portal
+|   |   |   \---dist
+|   |   +---react-presence
+|   |   |   \---dist
+|   |   +---react-primitive
+|   |   |   \---dist
+|   |   +---react-progress
+|   |   |   \---dist
+|   |   +---react-radio-group
+|   |   |   \---dist
+|   |   +---react-roving-focus
+|   |   |   \---dist
+|   |   +---react-scroll-area
+|   |   |   \---dist
+|   |   +---react-select
+|   |   |   \---dist
+|   |   +---react-separator
+|   |   |   \---dist
+|   |   +---react-slider
+|   |   |   \---dist
+|   |   +---react-slot
+|   |   |   \---dist
+|   |   +---react-switch
+|   |   |   \---dist
+|   |   +---react-tabs
+|   |   |   \---dist
+|   |   +---react-toast
+|   |   |   \---dist
+|   |   +---react-toggle
+|   |   |   \---dist
+|   |   +---react-toggle-group
+|   |   |   \---dist
+|   |   +---react-tooltip
+|   |   |   \---dist
+|   |   +---react-use-callback-ref
+|   |   |   \---dist
+|   |   +---react-use-controllable-state
+|   |   |   \---dist
+|   |   +---react-use-escape-keydown
+|   |   |   \---dist
+|   |   +---react-use-layout-effect
+|   |   |   \---dist
+|   |   +---react-use-previous
+|   |   |   \---dist
+|   |   +---react-use-rect
+|   |   |   \---dist
+|   |   +---react-use-size
+|   |   |   \---dist
+|   |   +---react-visually-hidden
+|   |   |   \---dist
+|   |   \---rect
+|   |       \---dist
+|   +---@swc
+|   |   +---counter
+|   |   \---helpers
+|   |       +---cjs
+|   |       +---esm
+|   |       +---scripts
+|   |       +---src
+|   |       \---_
+|   |           +---index
+|   |           +---_apply_decorated_descriptor
+|   |           +---_apply_decs_2203_r
+|   |           +---_array_like_to_array
+|   |           +---_array_without_holes
+|   |           +---_array_with_holes
+|   |           +---_assert_this_initialized
+|   |           +---_async_generator
+|   |           +---_async_generator_delegate
+|   |           +---_async_iterator
+|   |           +---_async_to_generator
+|   |           +---_await_async_generator
+|   |           +---_await_value
+|   |           +---_call_super
+|   |           +---_check_private_redeclaration
+|   |           +---_class_apply_descriptor_destructure
+|   |           +---_class_apply_descriptor_get
+|   |           +---_class_apply_descriptor_set
+|   |           +---_class_apply_descriptor_update
+|   |           +---_class_call_check
+|   |           +---_class_check_private_static_access
+|   |           +---_class_check_private_static_field_descriptor
+|   |           +---_class_extract_field_descriptor
+|   |           +---_class_name_tdz_error
+|   |           +---_class_private_field_destructure
+|   |           +---_class_private_field_get
+|   |           +---_class_private_field_init
+|   |           +---_class_private_field_loose_base
+|   |           +---_class_private_field_loose_key
+|   |           +---_class_private_field_set
+|   |           +---_class_private_field_update
+|   |           +---_class_private_method_get
+|   |           +---_class_private_method_init
+|   |           +---_class_private_method_set
+|   |           +---_class_static_private_field_destructure
+|   |           +---_class_static_private_field_spec_get
+|   |           +---_class_static_private_field_spec_set
+|   |           +---_class_static_private_field_update
+|   |           +---_class_static_private_method_get
+|   |           +---_construct
+|   |           +---_create_class
+|   |           +---_create_for_of_iterator_helper_loose
+|   |           +---_create_super
+|   |           +---_decorate
+|   |           +---_defaults
+|   |           +---_define_enumerable_properties
+|   |           +---_define_property
+|   |           +---_dispose
+|   |           +---_export_star
+|   |           +---_extends
+|   |           +---_get
+|   |           +---_get_prototype_of
+|   |           +---_identity
+|   |           +---_inherits
+|   |           +---_inherits_loose
+|   |           +---_initializer_define_property
+|   |           +---_initializer_warning_helper
+|   |           +---_instanceof
+|   |           +---_interop_require_default
+|   |           +---_interop_require_wildcard
+|   |           +---_is_native_function
+|   |           +---_is_native_reflect_construct
+|   |           +---_iterable_to_array
+|   |           +---_iterable_to_array_limit
+|   |           +---_iterable_to_array_limit_loose
+|   |           +---_jsx
+|   |           +---_new_arrow_check
+|   |           +---_non_iterable_rest
+|   |           +---_non_iterable_spread
+|   |           +---_object_destructuring_empty
+|   |           +---_object_spread
+|   |           +---_object_spread_props
+|   |           +---_object_without_properties
+|   |           +---_object_without_properties_loose
+|   |           +---_possible_constructor_return
+|   |           +---_read_only_error
+|   |           +---_set
+|   |           +---_set_prototype_of
+|   |           +---_skip_first_generator_next
+|   |           +---_sliced_to_array
+|   |           +---_sliced_to_array_loose
+|   |           +---_super_prop_base
+|   |           +---_tagged_template_literal
+|   |           +---_tagged_template_literal_loose
+|   |           +---_throw
+|   |           +---_to_array
+|   |           +---_to_consumable_array
+|   |           +---_to_primitive
+|   |           +---_to_property_key
+|   |           +---_ts_add_disposable_resource
+|   |           +---_ts_decorate
+|   |           +---_ts_dispose_resources
+|   |           +---_ts_generator
+|   |           +---_ts_metadata
+|   |           +---_ts_param
+|   |           +---_ts_values
+|   |           +---_type_of
+|   |           +---_unsupported_iterable_to_array
+|   |           +---_update
+|   |           +---_using
+|   |           +---_using_ctx
+|   |           +---_wrap_async_generator
+|   |           +---_wrap_native_super
+|   |           \---_write_only_error
+|   +---@types
+|   |   +---d3-array
+|   |   +---d3-color
+|   |   +---d3-ease
+|   |   +---d3-interpolate
+|   |   +---d3-path
+|   |   +---d3-scale
+|   |   +---d3-shape
+|   |   +---d3-time
+|   |   +---d3-timer
+|   |   +---node
+|   |   |   +---assert
+|   |   |   +---compatibility
+|   |   |   +---dns
+|   |   |   +---fs
+|   |   |   +---readline
+|   |   |   +---stream
+|   |   |   +---timers
+|   |   |   \---ts5.6
+|   |   +---react
+|   |   |   \---ts5.0
+|   |   |       \---v18
+|   |   |           \---ts5.0
+|   |   \---react-dom
+|   |       \---test-utils
+|   +---ansi-regex
+|   +---ansi-styles
+|   +---any-promise
+|   |   \---register
+|   +---anymatch
+|   +---arg
+|   +---aria-hidden
+|   |   \---dist
+|   |       +---es2015
+|   |       +---es2019
+|   |       \---es5
+|   +---autoprefixer
+|   |   +---bin
+|   |   +---data
+|   |   \---lib
+|   |       \---hacks
+|   +---balanced-match
+|   |   \---.github
+|   +---binary-extensions
+|   +---brace-expansion
+|   |   \---.github
+|   +---braces
+|   |   \---lib
+|   +---browserslist
+|   +---busboy
+|   |   +---.github
+|   |   |   \---workflows
+|   |   +---bench
+|   |   +---lib
+|   |   |   \---types
+|   |   \---test
+|   +---camelcase-css
+|   +---caniuse-lite
+|   |   +---data
+|   |   |   +---features
+|   |   |   \---regions
+|   |   \---dist
+|   |       +---lib
+|   |       \---unpacker
+|   +---chokidar
+|   |   +---lib
+|   |   +---node_modules
+|   |   |   \---glob-parent
+|   |   \---types
+|   +---class-variance-authority
+|   |   \---dist
+|   +---client-only
+|   +---clsx
+|   |   \---dist
+|   +---cmdk
+|   |   \---dist
+|   +---color
+|   +---color-convert
+|   +---color-name
+|   +---color-string
+|   +---commander
+|   |   \---typings
+|   +---cross-spawn
+|   |   \---lib
+|   |       \---util
+|   +---cssesc
+|   |   +---bin
+|   |   \---man
+|   +---csstype
+|   +---d3-array
+|   |   +---dist
+|   |   \---src
+|   |       \---threshold
+|   +---d3-color
+|   |   +---dist
+|   |   \---src
+|   +---d3-ease
+|   |   +---dist
+|   |   \---src
+|   +---d3-format
+|   |   +---dist
+|   |   +---locale
+|   |   \---src
+|   +---d3-interpolate
+|   |   +---dist
+|   |   \---src
+|   |       \---transform
+|   +---d3-path
+|   |   +---dist
+|   |   \---src
+|   +---d3-scale
+|   |   +---dist
+|   |   \---src
+|   +---d3-shape
+|   |   +---dist
+|   |   \---src
+|   |       +---curve
+|   |       +---offset
+|   |       +---order
+|   |       \---symbol
+|   +---d3-time
+|   |   +---dist
+|   |   \---src
+|   +---d3-time-format
+|   |   +---dist
+|   |   +---locale
+|   |   \---src
+|   +---d3-timer
+|   |   +---dist
+|   |   \---src
+|   +---date-fns
+|   |   +---docs
+|   |   +---fp
+|   |   |   \---_lib
+|   |   +---locale
+|   |   |   +---af
+|   |   |   |   \---_lib
+|   |   |   +---ar
+|   |   |   |   \---_lib
+|   |   |   +---ar-DZ
+|   |   |   |   \---_lib
+|   |   |   +---ar-EG
+|   |   |   |   \---_lib
+|   |   |   +---ar-MA
+|   |   |   |   \---_lib
+|   |   |   +---ar-SA
+|   |   |   |   \---_lib
+|   |   |   +---ar-TN
+|   |   |   |   \---_lib
+|   |   |   +---az
+|   |   |   |   \---_lib
+|   |   |   +---be
+|   |   |   |   \---_lib
+|   |   |   +---be-tarask
+|   |   |   |   \---_lib
+|   |   |   +---bg
+|   |   |   |   \---_lib
+|   |   |   +---bn
+|   |   |   |   \---_lib
+|   |   |   +---bs
+|   |   |   |   \---_lib
+|   |   |   +---ca
+|   |   |   |   \---_lib
+|   |   |   +---ckb
+|   |   |   |   \---_lib
+|   |   |   +---cs
+|   |   |   |   \---_lib
+|   |   |   +---cy
+|   |   |   |   \---_lib
+|   |   |   +---da
+|   |   |   |   \---_lib
+|   |   |   +---de
+|   |   |   |   \---_lib
+|   |   |   +---de-AT
+|   |   |   |   \---_lib
+|   |   |   +---el
+|   |   |   |   \---_lib
+|   |   |   +---en-AU
+|   |   |   |   \---_lib
+|   |   |   +---en-CA
+|   |   |   |   \---_lib
+|   |   |   +---en-GB
+|   |   |   |   \---_lib
+|   |   |   +---en-IE
+|   |   |   +---en-IN
+|   |   |   |   \---_lib
+|   |   |   +---en-NZ
+|   |   |   |   \---_lib
+|   |   |   +---en-US
+|   |   |   |   \---_lib
+|   |   |   +---en-ZA
+|   |   |   |   \---_lib
+|   |   |   +---eo
+|   |   |   |   \---_lib
+|   |   |   +---es
+|   |   |   |   \---_lib
+|   |   |   +---et
+|   |   |   |   \---_lib
+|   |   |   +---eu
+|   |   |   |   \---_lib
+|   |   |   +---fa-IR
+|   |   |   |   \---_lib
+|   |   |   +---fi
+|   |   |   |   \---_lib
+|   |   |   +---fr
+|   |   |   |   \---_lib
+|   |   |   +---fr-CA
+|   |   |   |   \---_lib
+|   |   |   +---fr-CH
+|   |   |   |   \---_lib
+|   |   |   +---fy
+|   |   |   |   \---_lib
+|   |   |   +---gd
+|   |   |   |   \---_lib
+|   |   |   +---gl
+|   |   |   |   \---_lib
+|   |   |   +---gu
+|   |   |   |   \---_lib
+|   |   |   +---he
+|   |   |   |   \---_lib
+|   |   |   +---hi
+|   |   |   |   \---_lib
+|   |   |   +---hr
+|   |   |   |   \---_lib
+|   |   |   +---ht
+|   |   |   |   \---_lib
+|   |   |   +---hu
+|   |   |   |   \---_lib
+|   |   |   +---hy
+|   |   |   |   \---_lib
+|   |   |   +---id
+|   |   |   |   \---_lib
+|   |   |   +---is
+|   |   |   |   \---_lib
+|   |   |   +---it
+|   |   |   |   \---_lib
+|   |   |   +---it-CH
+|   |   |   |   \---_lib
+|   |   |   +---ja
+|   |   |   |   \---_lib
+|   |   |   +---ja-Hira
+|   |   |   |   \---_lib
+|   |   |   +---ka
+|   |   |   |   \---_lib
+|   |   |   +---kk
+|   |   |   |   \---_lib
+|   |   |   +---km
+|   |   |   |   \---_lib
+|   |   |   +---kn
+|   |   |   |   \---_lib
+|   |   |   +---ko
+|   |   |   |   \---_lib
+|   |   |   +---lb
+|   |   |   |   \---_lib
+|   |   |   +---lt
+|   |   |   |   \---_lib
+|   |   |   +---lv
+|   |   |   |   \---_lib
+|   |   |   +---mk
+|   |   |   |   \---_lib
+|   |   |   +---mn
+|   |   |   |   \---_lib
+|   |   |   +---ms
+|   |   |   |   \---_lib
+|   |   |   +---mt
+|   |   |   |   \---_lib
+|   |   |   +---nb
+|   |   |   |   \---_lib
+|   |   |   +---nl
+|   |   |   |   \---_lib
+|   |   |   +---nl-BE
+|   |   |   |   \---_lib
+|   |   |   +---nn
+|   |   |   |   \---_lib
+|   |   |   +---oc
+|   |   |   |   \---_lib
+|   |   |   +---pl
+|   |   |   |   \---_lib
+|   |   |   +---pt
+|   |   |   |   \---_lib
+|   |   |   +---pt-BR
+|   |   |   |   \---_lib
+|   |   |   +---ro
+|   |   |   |   \---_lib
+|   |   |   +---ru
+|   |   |   |   \---_lib
+|   |   |   +---se
+|   |   |   |   \---_lib
+|   |   |   +---sk
+|   |   |   |   \---_lib
+|   |   |   +---sl
+|   |   |   |   \---_lib
+|   |   |   +---sq
+|   |   |   |   \---_lib
+|   |   |   +---sr
+|   |   |   |   \---_lib
+|   |   |   +---sr-Latn
+|   |   |   |   \---_lib
+|   |   |   +---sv
+|   |   |   |   \---_lib
+|   |   |   +---ta
+|   |   |   |   \---_lib
+|   |   |   +---te
+|   |   |   |   \---_lib
+|   |   |   +---th
+|   |   |   |   \---_lib
+|   |   |   +---tr
+|   |   |   |   \---_lib
+|   |   |   +---ug
+|   |   |   |   \---_lib
+|   |   |   +---uk
+|   |   |   |   \---_lib
+|   |   |   +---uz
+|   |   |   |   \---_lib
+|   |   |   +---uz-Cyrl
+|   |   |   |   \---_lib
+|   |   |   +---vi
+|   |   |   |   \---_lib
+|   |   |   +---zh-CN
+|   |   |   |   \---_lib
+|   |   |   +---zh-HK
+|   |   |   |   \---_lib
+|   |   |   +---zh-TW
+|   |   |   |   \---_lib
+|   |   |   \---_lib
+|   |   +---parse
+|   |   |   \---_lib
+|   |   |       \---parsers
+|   |   \---_lib
+|   |       \---format
+|   +---decimal.js-light
+|   |   \---doc
+|   +---detect-libc
+|   |   \---lib
+|   +---detect-node-es
+|   |   +---es5
+|   |   \---esm
+|   +---didyoumean
+|   +---dlv
+|   |   \---dist
+|   +---dom-helpers
+|   |   +---activeElement
+|   |   +---addClass
+|   |   +---addEventListener
+|   |   +---animate
+|   |   +---animationFrame
+|   |   +---attribute
+|   |   +---camelize
+|   |   +---camelizeStyle
+|   |   +---canUseDOM
+|   |   +---childElements
+|   |   +---childNodes
+|   |   +---cjs
+|   |   +---clear
+|   |   +---closest
+|   |   +---collectElements
+|   |   +---collectSiblings
+|   |   +---contains
+|   |   +---css
+|   |   +---esm
+|   |   +---filterEventHandler
+|   |   +---getComputedStyle
+|   |   +---getScrollAccessor
+|   |   +---hasClass
+|   |   +---height
+|   |   +---hyphenate
+|   |   +---hyphenateStyle
+|   |   +---insertAfter
+|   |   +---isDocument
+|   |   +---isInput
+|   |   +---isTransform
+|   |   +---isVisible
+|   |   +---isWindow
+|   |   +---listen
+|   |   +---matches
+|   |   +---nextUntil
+|   |   +---offset
+|   |   +---offsetParent
+|   |   +---ownerDocument
+|   |   +---ownerWindow
+|   |   +---parents
+|   |   +---position
+|   |   +---prepend
+|   |   +---querySelectorAll
+|   |   +---remove
+|   |   +---removeClass
+|   |   +---removeEventListener
+|   |   +---scrollbarSize
+|   |   +---scrollLeft
+|   |   +---scrollParent
+|   |   +---scrollTo
+|   |   +---scrollTop
+|   |   +---siblings
+|   |   +---text
+|   |   +---toggleClass
+|   |   +---transitionEnd
+|   |   +---triggerEvent
+|   |   \---width
+|   +---eastasianwidth
+|   +---electron-to-chromium
+|   +---embla-carousel
+|   |   +---cjs
+|   |   |   \---components
+|   |   +---components
+|   |   \---esm
+|   |       \---components
+|   +---embla-carousel-react
+|   |   +---cjs
+|   |   |   \---components
+|   |   +---components
+|   |   \---esm
+|   |       \---components
+|   +---embla-carousel-reactive-utils
+|   |   +---cjs
+|   |   |   \---components
+|   |   +---components
+|   |   \---esm
+|   |       \---components
+|   +---emoji-regex
+|   |   \---es2015
+|   +---escalade
+|   |   +---dist
+|   |   \---sync
+|   +---eventemitter3
+|   |   \---umd
+|   +---fast-equals
+|   |   +---config
+|   |   |   +---rollup
+|   |   |   \---tsconfig
+|   |   +---dist
+|   |   |   +---cjs
+|   |   |   |   \---types
+|   |   |   +---esm
+|   |   |   |   \---types
+|   |   |   +---min
+|   |   |   |   \---types
+|   |   |   \---umd
+|   |   |       \---types
+|   |   +---recipes
+|   |   +---scripts
+|   |   \---src
+|   +---fast-glob
+|   |   +---node_modules
+|   |   |   \---glob-parent
+|   |   \---out
+|   |       +---managers
+|   |       +---providers
+|   |       |   +---filters
+|   |       |   +---matchers
+|   |       |   \---transformers
+|   |       +---readers
+|   |       +---types
+|   |       \---utils
+|   +---fastq
+|   |   +---.github
+|   |   |   \---workflows
+|   |   \---test
+|   +---fill-range
+|   +---foreground-child
+|   |   \---dist
+|   |       +---commonjs
+|   |       \---esm
+|   +---fraction.js
+|   +---function-bind
+|   |   +---.github
+|   |   \---test
+|   +---get-nonce
+|   |   \---dist
+|   |       +---es2015
+|   |       \---es5
+|   +---glob
+|   |   \---dist
+|   |       +---commonjs
+|   |       \---esm
+|   +---glob-parent
+|   +---hasown
+|   |   \---.github
+|   +---input-otp
+|   |   \---dist
+|   +---internmap
+|   |   +---dist
+|   |   \---src
+|   +---is-arrayish
+|   +---is-binary-path
+|   +---is-core-module
+|   |   \---test
+|   +---is-extglob
+|   +---is-fullwidth-code-point
+|   +---is-glob
+|   +---is-number
+|   +---isexe
+|   |   \---test
+|   +---jackspeak
+|   |   \---dist
+|   |       +---commonjs
+|   |       \---esm
+|   +---jiti
+|   |   +---bin
+|   |   +---dist
+|   |   |   \---plugins
+|   |   \---lib
+|   +---js-tokens
+|   +---lilconfig
+|   |   \---src
+|   +---lines-and-columns
+|   |   \---build
+|   +---lodash
+|   |   \---fp
+|   +---loose-envify
+|   +---lru-cache
+|   |   \---dist
+|   |       +---commonjs
+|   |       \---esm
+|   +---lucide-react
+|   |   \---dist
+|   |       +---cjs
+|   |       +---esm
+|   |       |   +---icons
+|   |       |   \---shared
+|   |       |       \---src
+|   |       \---umd
+|   +---merge2
+|   +---micromatch
+|   +---minimatch
+|   |   \---dist
+|   |       +---commonjs
+|   |       \---esm
+|   +---minipass
+|   |   \---dist
+|   |       +---commonjs
+|   |       \---esm
+|   +---mz
+|   +---nanoid
+|   |   +---async
+|   |   +---bin
+|   |   +---non-secure
+|   |   \---url-alphabet
+|   +---next
+|   |   +---compat
+|   |   +---dist
+|   |   |   +---api
+|   |   |   +---bin
+|   |   |   +---build
+|   |   |   |   +---analysis
+|   |   |   |   +---babel
+|   |   |   |   |   +---loader
+|   |   |   |   |   \---plugins
+|   |   |   |   +---jest
+|   |   |   |   |   \---__mocks__
+|   |   |   |   +---manifests
+|   |   |   |   |   \---formatter
+|   |   |   |   +---next-config-ts
+|   |   |   |   +---output
+|   |   |   |   +---polyfills
+|   |   |   |   |   +---fetch
+|   |   |   |   |   \---object.assign
+|   |   |   |   +---segment-config
+|   |   |   |   |   +---app
+|   |   |   |   |   +---middleware
+|   |   |   |   |   \---pages
+|   |   |   |   +---static-paths
+|   |   |   |   +---swc
+|   |   |   |   +---templates
+|   |   |   |   +---turbopack-build
+|   |   |   |   +---turborepo-access-trace
+|   |   |   |   +---webpack
+|   |   |   |   |   +---alias
+|   |   |   |   |   +---config
+|   |   |   |   |   |   \---blocks
+|   |   |   |   |   |       +---css
+|   |   |   |   |   |       |   \---loaders
+|   |   |   |   |   |       \---images
+|   |   |   |   |   +---loaders
+|   |   |   |   |   |   +---css-loader
+|   |   |   |   |   |   |   \---src
+|   |   |   |   |   |   |       +---plugins
+|   |   |   |   |   |   |       \---runtime
+|   |   |   |   |   |   +---lightningcss-loader
+|   |   |   |   |   |   |   \---src
+|   |   |   |   |   |   +---metadata
+|   |   |   |   |   |   +---next-app-loader
+|   |   |   |   |   |   +---next-edge-app-route-loader
+|   |   |   |   |   |   +---next-edge-ssr-loader
+|   |   |   |   |   |   +---next-flight-loader
+|   |   |   |   |   |   +---next-font-loader
+|   |   |   |   |   |   +---next-image-loader
+|   |   |   |   |   |   +---next-route-loader
+|   |   |   |   |   |   +---next-style-loader
+|   |   |   |   |   |   |   \---runtime
+|   |   |   |   |   |   +---postcss-loader
+|   |   |   |   |   |   |   \---src
+|   |   |   |   |   |   \---resolve-url-loader
+|   |   |   |   |   |       \---lib
+|   |   |   |   |   \---plugins
+|   |   |   |   |       +---minify-webpack-plugin
+|   |   |   |   |       |   \---src
+|   |   |   |   |       +---next-types-plugin
+|   |   |   |   |       +---telemetry-plugin
+|   |   |   |   |       \---wellknown-errors-plugin
+|   |   |   |   +---webpack-build
+|   |   |   |   \---webpack-config-rules
+|   |   |   +---cli
+|   |   |   |   \---internal
+|   |   |   +---client
+|   |   |   |   +---app-dir
+|   |   |   |   +---compat
+|   |   |   |   +---components
+|   |   |   |   |   +---errors
+|   |   |   |   |   +---globals
+|   |   |   |   |   +---http-access-fallback
+|   |   |   |   |   +---metadata
+|   |   |   |   |   +---react-dev-overlay
+|   |   |   |   |   |   +---app
+|   |   |   |   |   |   +---font
+|   |   |   |   |   |   +---pages
+|   |   |   |   |   |   +---server
+|   |   |   |   |   |   +---ui
+|   |   |   |   |   |   |   +---components
+|   |   |   |   |   |   |   |   +---call-stack-frame
+|   |   |   |   |   |   |   |   +---code-frame
+|   |   |   |   |   |   |   |   +---copy-button
+|   |   |   |   |   |   |   |   +---dialog
+|   |   |   |   |   |   |   |   +---errors
+|   |   |   |   |   |   |   |   |   +---call-stack
+|   |   |   |   |   |   |   |   |   +---dev-tools-indicator
+|   |   |   |   |   |   |   |   |   |   \---dev-tools-info
+|   |   |   |   |   |   |   |   |   +---dialog
+|   |   |   |   |   |   |   |   |   +---environment-name-label
+|   |   |   |   |   |   |   |   |   +---error-message
+|   |   |   |   |   |   |   |   |   +---error-overlay
+|   |   |   |   |   |   |   |   |   +---error-overlay-bottom-stack
+|   |   |   |   |   |   |   |   |   +---error-overlay-footer
+|   |   |   |   |   |   |   |   |   |   \---error-feedback
+|   |   |   |   |   |   |   |   |   +---error-overlay-layout
+|   |   |   |   |   |   |   |   |   +---error-overlay-nav
+|   |   |   |   |   |   |   |   |   +---error-overlay-pagination
+|   |   |   |   |   |   |   |   |   +---error-overlay-toolbar
+|   |   |   |   |   |   |   |   |   +---error-type-label
+|   |   |   |   |   |   |   |   |   \---overlay
+|   |   |   |   |   |   |   |   +---hot-linked-text
+|   |   |   |   |   |   |   |   +---hydration-diff
+|   |   |   |   |   |   |   |   +---overlay
+|   |   |   |   |   |   |   |   +---terminal
+|   |   |   |   |   |   |   |   +---toast
+|   |   |   |   |   |   |   |   \---version-staleness-info
+|   |   |   |   |   |   |   +---container
+|   |   |   |   |   |   |   |   \---runtime-error
+|   |   |   |   |   |   |   +---hooks
+|   |   |   |   |   |   |   +---icons
+|   |   |   |   |   |   |   |   \---thumbs
+|   |   |   |   |   |   |   +---storybook
+|   |   |   |   |   |   |   +---styles
+|   |   |   |   |   |   |   \---utils
+|   |   |   |   |   |   \---utils
+|   |   |   |   |   |       \---dev-indicator
+|   |   |   |   |   +---router-reducer
+|   |   |   |   |   |   \---reducers
+|   |   |   |   |   \---segment-cache-impl
+|   |   |   |   +---dev
+|   |   |   |   |   +---dev-build-indicator
+|   |   |   |   |   |   \---internal
+|   |   |   |   |   \---error-overlay
+|   |   |   |   +---legacy
+|   |   |   |   +---lib
+|   |   |   |   +---portal
+|   |   |   |   +---react-client-callbacks
+|   |   |   |   +---request
+|   |   |   |   \---tracing
+|   |   |   +---compiled
+|   |   |   |   +---@ampproject
+|   |   |   |   |   \---toolbox-optimizer
+|   |   |   |   +---@babel
+|   |   |   |   |   \---runtime
+|   |   |   |   |       +---helpers
+|   |   |   |   |       |   \---esm
+|   |   |   |   |       \---regenerator
+|   |   |   |   +---@edge-runtime
+|   |   |   |   |   +---cookies
+|   |   |   |   |   +---ponyfill
+|   |   |   |   |   \---primitives
+|   |   |   |   +---@hapi
+|   |   |   |   |   \---accept
+|   |   |   |   +---@mswjs
+|   |   |   |   |   \---interceptors
+|   |   |   |   |       \---ClientRequest
+|   |   |   |   +---@napi-rs
+|   |   |   |   |   \---triples
+|   |   |   |   +---@next
+|   |   |   |   |   +---font
+|   |   |   |   |   |   +---dist
+|   |   |   |   |   |   |   +---fontkit
+|   |   |   |   |   |   |   +---google
+|   |   |   |   |   |   |   \---local
+|   |   |   |   |   |   +---google
+|   |   |   |   |   |   \---local
+|   |   |   |   |   \---react-refresh-utils
+|   |   |   |   |       \---dist
+|   |   |   |   |           \---internal
+|   |   |   |   +---@opentelemetry
+|   |   |   |   |   \---api
+|   |   |   |   +---@vercel
+|   |   |   |   |   +---nft
+|   |   |   |   |   \---og
+|   |   |   |   |       +---emoji
+|   |   |   |   |       +---figma
+|   |   |   |   |       +---language
+|   |   |   |   |       \---satori
+|   |   |   |   +---acorn
+|   |   |   |   +---amphtml-validator
+|   |   |   |   +---anser
+|   |   |   |   +---assert
+|   |   |   |   +---async-retry
+|   |   |   |   +---async-sema
+|   |   |   |   +---babel
+|   |   |   |   +---babel-packages
+|   |   |   |   +---browserify-zlib
+|   |   |   |   +---browserslist
+|   |   |   |   +---buffer
+|   |   |   |   +---bytes
+|   |   |   |   +---ci-info
+|   |   |   |   +---cli-select
+|   |   |   |   +---client-only
+|   |   |   |   +---commander
+|   |   |   |   +---comment-json
+|   |   |   |   +---compression
+|   |   |   |   +---conf
+|   |   |   |   +---constants-browserify
+|   |   |   |   +---content-disposition
+|   |   |   |   +---content-type
+|   |   |   |   +---cookie
+|   |   |   |   +---cross-spawn
+|   |   |   |   +---crypto-browserify
+|   |   |   |   +---css.escape
+|   |   |   |   +---cssnano-simple
+|   |   |   |   +---data-uri-to-buffer
+|   |   |   |   +---debug
+|   |   |   |   +---devalue
+|   |   |   |   +---domain-browser
+|   |   |   |   +---edge-runtime
+|   |   |   |   +---events
+|   |   |   |   +---find-up
+|   |   |   |   +---fresh
+|   |   |   |   +---glob
+|   |   |   |   +---gzip-size
+|   |   |   |   +---http-proxy
+|   |   |   |   +---http-proxy-agent
+|   |   |   |   +---https-browserify
+|   |   |   |   +---https-proxy-agent
+|   |   |   |   +---icss-utils
+|   |   |   |   +---ignore-loader
+|   |   |   |   +---image-size
+|   |   |   |   +---is-animated
+|   |   |   |   +---is-docker
+|   |   |   |   +---is-wsl
+|   |   |   |   +---jest-worker
+|   |   |   |   +---json5
+|   |   |   |   +---jsonwebtoken
+|   |   |   |   +---loader-runner
+|   |   |   |   +---loader-utils2
+|   |   |   |   +---loader-utils3
+|   |   |   |   +---lodash.curry
+|   |   |   |   +---lru-cache
+|   |   |   |   +---mini-css-extract-plugin
+|   |   |   |   |   \---hmr
+|   |   |   |   +---nanoid
+|   |   |   |   +---native-url
+|   |   |   |   +---neo-async
+|   |   |   |   +---next-server
+|   |   |   |   +---node-html-parser
+|   |   |   |   +---ora
+|   |   |   |   +---os-browserify
+|   |   |   |   +---p-limit
+|   |   |   |   +---p-queue
+|   |   |   |   +---path-browserify
+|   |   |   |   +---path-to-regexp
+|   |   |   |   +---picomatch
+|   |   |   |   +---postcss-flexbugs-fixes
+|   |   |   |   +---postcss-modules-extract-imports
+|   |   |   |   +---postcss-modules-local-by-default
+|   |   |   |   +---postcss-modules-scope
+|   |   |   |   +---postcss-modules-values
+|   |   |   |   +---postcss-plugin-stub-for-cssnano-simple
+|   |   |   |   +---postcss-preset-env
+|   |   |   |   +---postcss-safe-parser
+|   |   |   |   +---postcss-scss
+|   |   |   |   +---postcss-value-parser
+|   |   |   |   +---process
+|   |   |   |   +---punycode
+|   |   |   |   +---querystring-es3
+|   |   |   |   +---raw-body
+|   |   |   |   +---react
+|   |   |   |   |   \---cjs
+|   |   |   |   +---react-dom
+|   |   |   |   |   \---cjs
+|   |   |   |   +---react-dom-experimental
+|   |   |   |   |   \---cjs
+|   |   |   |   +---react-experimental
+|   |   |   |   |   \---cjs
+|   |   |   |   +---react-is
+|   |   |   |   |   \---cjs
+|   |   |   |   +---react-refresh
+|   |   |   |   |   \---cjs
+|   |   |   |   +---react-server-dom-turbopack
+|   |   |   |   |   \---cjs
+|   |   |   |   +---react-server-dom-turbopack-experimental
+|   |   |   |   |   \---cjs
+|   |   |   |   +---react-server-dom-webpack
+|   |   |   |   |   \---cjs
+|   |   |   |   +---react-server-dom-webpack-experimental
+|   |   |   |   |   \---cjs
+|   |   |   |   +---regenerator-runtime
+|   |   |   |   +---sass-loader
+|   |   |   |   +---scheduler
+|   |   |   |   |   \---cjs
+|   |   |   |   +---scheduler-experimental
+|   |   |   |   |   \---cjs
+|   |   |   |   +---schema-utils2
+|   |   |   |   +---schema-utils3
+|   |   |   |   +---semver
+|   |   |   |   +---send
+|   |   |   |   +---server-only
+|   |   |   |   +---setimmediate
+|   |   |   |   +---shell-quote
+|   |   |   |   +---source-map
+|   |   |   |   +---source-map08
+|   |   |   |   +---stacktrace-parser
+|   |   |   |   +---stream-browserify
+|   |   |   |   +---stream-http
+|   |   |   |   +---string-hash
+|   |   |   |   +---string_decoder
+|   |   |   |   +---strip-ansi
+|   |   |   |   +---superstruct
+|   |   |   |   +---tar
+|   |   |   |   +---terser
+|   |   |   |   +---text-table
+|   |   |   |   +---timers-browserify
+|   |   |   |   +---tty-browserify
+|   |   |   |   +---ua-parser-js
+|   |   |   |   +---unistore
+|   |   |   |   +---util
+|   |   |   |   +---vm-browserify
+|   |   |   |   +---watchpack
+|   |   |   |   +---web-vitals
+|   |   |   |   +---web-vitals-attribution
+|   |   |   |   +---webpack
+|   |   |   |   +---webpack-sources1
+|   |   |   |   +---webpack-sources3
+|   |   |   |   +---ws
+|   |   |   |   +---zod
+|   |   |   |   \---zod-validation-error
+|   |   |   +---diagnostics
+|   |   |   +---esm
+|   |   |   |   +---api
+|   |   |   |   +---build
+|   |   |   |   |   +---analysis
+|   |   |   |   |   +---babel
+|   |   |   |   |   |   +---loader
+|   |   |   |   |   |   \---plugins
+|   |   |   |   |   +---manifests
+|   |   |   |   |   |   \---formatter
+|   |   |   |   |   +---next-config-ts
+|   |   |   |   |   +---output
+|   |   |   |   |   +---polyfills
+|   |   |   |   |   |   +---fetch
+|   |   |   |   |   |   \---object.assign
+|   |   |   |   |   +---segment-config
+|   |   |   |   |   |   +---app
+|   |   |   |   |   |   +---middleware
+|   |   |   |   |   |   \---pages
+|   |   |   |   |   +---static-paths
+|   |   |   |   |   +---swc
+|   |   |   |   |   +---templates
+|   |   |   |   |   +---turbopack-build
+|   |   |   |   |   +---turborepo-access-trace
+|   |   |   |   |   +---webpack
+|   |   |   |   |   |   +---alias
+|   |   |   |   |   |   +---config
+|   |   |   |   |   |   |   \---blocks
+|   |   |   |   |   |   |       +---css
+|   |   |   |   |   |   |       |   \---loaders
+|   |   |   |   |   |   |       \---images
+|   |   |   |   |   |   +---loaders
+|   |   |   |   |   |   |   +---css-loader
+|   |   |   |   |   |   |   |   \---src
+|   |   |   |   |   |   |   |       +---plugins
+|   |   |   |   |   |   |   |       \---runtime
+|   |   |   |   |   |   |   +---lightningcss-loader
+|   |   |   |   |   |   |   |   \---src
+|   |   |   |   |   |   |   +---metadata
+|   |   |   |   |   |   |   +---next-app-loader
+|   |   |   |   |   |   |   +---next-edge-app-route-loader
+|   |   |   |   |   |   |   +---next-edge-ssr-loader
+|   |   |   |   |   |   |   +---next-flight-loader
+|   |   |   |   |   |   |   +---next-font-loader
+|   |   |   |   |   |   |   +---next-image-loader
+|   |   |   |   |   |   |   +---next-route-loader
+|   |   |   |   |   |   |   +---next-style-loader
+|   |   |   |   |   |   |   |   \---runtime
+|   |   |   |   |   |   |   +---postcss-loader
+|   |   |   |   |   |   |   |   \---src
+|   |   |   |   |   |   |   \---resolve-url-loader
+|   |   |   |   |   |   |       \---lib
+|   |   |   |   |   |   \---plugins
+|   |   |   |   |   |       +---minify-webpack-plugin
+|   |   |   |   |   |       |   \---src
+|   |   |   |   |   |       +---next-types-plugin
+|   |   |   |   |   |       +---telemetry-plugin
+|   |   |   |   |   |       \---wellknown-errors-plugin
+|   |   |   |   |   +---webpack-build
+|   |   |   |   |   \---webpack-config-rules
+|   |   |   |   +---client
+|   |   |   |   |   +---app-dir
+|   |   |   |   |   +---compat
+|   |   |   |   |   +---components
+|   |   |   |   |   |   +---errors
+|   |   |   |   |   |   +---globals
+|   |   |   |   |   |   +---http-access-fallback
+|   |   |   |   |   |   +---metadata
+|   |   |   |   |   |   +---react-dev-overlay
+|   |   |   |   |   |   |   +---app
+|   |   |   |   |   |   |   +---font
+|   |   |   |   |   |   |   +---pages
+|   |   |   |   |   |   |   +---server
+|   |   |   |   |   |   |   +---ui
+|   |   |   |   |   |   |   |   +---components
+|   |   |   |   |   |   |   |   |   +---call-stack-frame
+|   |   |   |   |   |   |   |   |   +---code-frame
+|   |   |   |   |   |   |   |   |   +---copy-button
+|   |   |   |   |   |   |   |   |   +---dialog
+|   |   |   |   |   |   |   |   |   +---errors
+|   |   |   |   |   |   |   |   |   |   +---call-stack
+|   |   |   |   |   |   |   |   |   |   +---dev-tools-indicator
+|   |   |   |   |   |   |   |   |   |   |   \---dev-tools-info
+|   |   |   |   |   |   |   |   |   |   +---dialog
+|   |   |   |   |   |   |   |   |   |   +---environment-name-label
+|   |   |   |   |   |   |   |   |   |   +---error-message
+|   |   |   |   |   |   |   |   |   |   +---error-overlay
+|   |   |   |   |   |   |   |   |   |   +---error-overlay-bottom-stack
+|   |   |   |   |   |   |   |   |   |   +---error-overlay-footer
+|   |   |   |   |   |   |   |   |   |   |   \---error-feedback
+|   |   |   |   |   |   |   |   |   |   +---error-overlay-layout
+|   |   |   |   |   |   |   |   |   |   +---error-overlay-nav
+|   |   |   |   |   |   |   |   |   |   +---error-overlay-pagination
+|   |   |   |   |   |   |   |   |   |   +---error-overlay-toolbar
+|   |   |   |   |   |   |   |   |   |   +---error-type-label
+|   |   |   |   |   |   |   |   |   |   \---overlay
+|   |   |   |   |   |   |   |   |   +---hot-linked-text
+|   |   |   |   |   |   |   |   |   +---hydration-diff
+|   |   |   |   |   |   |   |   |   +---overlay
+|   |   |   |   |   |   |   |   |   +---terminal
+|   |   |   |   |   |   |   |   |   +---toast
+|   |   |   |   |   |   |   |   |   \---version-staleness-info
+|   |   |   |   |   |   |   |   +---container
+|   |   |   |   |   |   |   |   |   \---runtime-error
+|   |   |   |   |   |   |   |   +---hooks
+|   |   |   |   |   |   |   |   +---icons
+|   |   |   |   |   |   |   |   |   \---thumbs
+|   |   |   |   |   |   |   |   +---storybook
+|   |   |   |   |   |   |   |   +---styles
+|   |   |   |   |   |   |   |   \---utils
+|   |   |   |   |   |   |   \---utils
+|   |   |   |   |   |   |       \---dev-indicator
+|   |   |   |   |   |   +---router-reducer
+|   |   |   |   |   |   |   \---reducers
+|   |   |   |   |   |   \---segment-cache-impl
+|   |   |   |   |   +---dev
+|   |   |   |   |   |   +---dev-build-indicator
+|   |   |   |   |   |   |   \---internal
+|   |   |   |   |   |   \---error-overlay
+|   |   |   |   |   +---legacy
+|   |   |   |   |   +---lib
+|   |   |   |   |   +---portal
+|   |   |   |   |   +---react-client-callbacks
+|   |   |   |   |   +---request
+|   |   |   |   |   \---tracing
+|   |   |   |   +---export
+|   |   |   |   |   +---helpers
+|   |   |   |   |   \---routes
+|   |   |   |   +---lib
+|   |   |   |   |   +---eslint
+|   |   |   |   |   +---fs
+|   |   |   |   |   +---helpers
+|   |   |   |   |   +---memory
+|   |   |   |   |   +---metadata
+|   |   |   |   |   |   +---generate
+|   |   |   |   |   |   +---resolvers
+|   |   |   |   |   |   \---types
+|   |   |   |   |   \---typescript
+|   |   |   |   +---pages
+|   |   |   |   +---server
+|   |   |   |   |   +---after
+|   |   |   |   |   +---api-utils
+|   |   |   |   |   |   \---node
+|   |   |   |   |   +---app-render
+|   |   |   |   |   |   +---metadata-insertion
+|   |   |   |   |   |   \---rsc
+|   |   |   |   |   +---async-storage
+|   |   |   |   |   +---base-http
+|   |   |   |   |   +---dev
+|   |   |   |   |   +---instrumentation
+|   |   |   |   |   +---lib
+|   |   |   |   |   |   +---cache-handlers
+|   |   |   |   |   |   +---experimental
+|   |   |   |   |   |   +---incremental-cache
+|   |   |   |   |   |   +---module-loader
+|   |   |   |   |   |   +---router-utils
+|   |   |   |   |   |   +---server-ipc
+|   |   |   |   |   |   \---trace
+|   |   |   |   |   +---node-environment-extensions
+|   |   |   |   |   +---normalizers
+|   |   |   |   |   |   +---built
+|   |   |   |   |   |   |   +---app
+|   |   |   |   |   |   |   \---pages
+|   |   |   |   |   |   \---request
+|   |   |   |   |   +---og
+|   |   |   |   |   +---request
+|   |   |   |   |   +---response-cache
+|   |   |   |   |   +---resume-data-cache
+|   |   |   |   |   +---route-definitions
+|   |   |   |   |   +---route-matcher-managers
+|   |   |   |   |   +---route-matcher-providers
+|   |   |   |   |   |   +---dev
+|   |   |   |   |   |   |   \---helpers
+|   |   |   |   |   |   |       \---file-reader
+|   |   |   |   |   |   \---helpers
+|   |   |   |   |   |       \---manifest-loaders
+|   |   |   |   |   +---route-matchers
+|   |   |   |   |   +---route-matches
+|   |   |   |   |   +---route-modules
+|   |   |   |   |   |   +---app-page
+|   |   |   |   |   |   |   \---vendored
+|   |   |   |   |   |   |       +---contexts
+|   |   |   |   |   |   |       +---rsc
+|   |   |   |   |   |   |       \---ssr
+|   |   |   |   |   |   +---app-route
+|   |   |   |   |   |   |   \---helpers
+|   |   |   |   |   |   +---pages
+|   |   |   |   |   |   |   +---builtin
+|   |   |   |   |   |   |   \---vendored
+|   |   |   |   |   |   |       \---contexts
+|   |   |   |   |   |   \---pages-api
+|   |   |   |   |   +---stream-utils
+|   |   |   |   |   +---typescript
+|   |   |   |   |   |   \---rules
+|   |   |   |   |   +---use-cache
+|   |   |   |   |   \---web
+|   |   |   |   |       +---exports
+|   |   |   |   |       +---sandbox
+|   |   |   |   |       \---spec-extension
+|   |   |   |   |           \---adapters
+|   |   |   |   \---shared
+|   |   |   |       \---lib
+|   |   |   |           +---i18n
+|   |   |   |           +---isomorphic
+|   |   |   |           +---lazy-dynamic
+|   |   |   |           +---page-path
+|   |   |   |           +---router
+|   |   |   |           |   \---utils
+|   |   |   |           +---segment-cache
+|   |   |   |           +---turbopack
+|   |   |   |           \---utils
+|   |   |   +---experimental
+|   |   |   |   +---testing
+|   |   |   |   |   \---server
+|   |   |   |   \---testmode
+|   |   |   |       +---playwright
+|   |   |   |       \---proxy
+|   |   |   +---export
+|   |   |   |   +---helpers
+|   |   |   |   \---routes
+|   |   |   +---lib
+|   |   |   |   +---eslint
+|   |   |   |   +---fs
+|   |   |   |   +---helpers
+|   |   |   |   +---memory
+|   |   |   |   +---metadata
+|   |   |   |   |   +---generate
+|   |   |   |   |   +---resolvers
+|   |   |   |   |   \---types
+|   |   |   |   \---typescript
+|   |   |   +---pages
+|   |   |   +---server
+|   |   |   |   +---after
+|   |   |   |   +---api-utils
+|   |   |   |   |   \---node
+|   |   |   |   +---app-render
+|   |   |   |   |   +---metadata-insertion
+|   |   |   |   |   \---rsc
+|   |   |   |   +---async-storage
+|   |   |   |   +---base-http
+|   |   |   |   +---dev
+|   |   |   |   +---instrumentation
+|   |   |   |   +---lib
+|   |   |   |   |   +---cache-handlers
+|   |   |   |   |   +---experimental
+|   |   |   |   |   +---incremental-cache
+|   |   |   |   |   +---module-loader
+|   |   |   |   |   +---router-utils
+|   |   |   |   |   +---server-ipc
+|   |   |   |   |   \---trace
+|   |   |   |   +---node-environment-extensions
+|   |   |   |   +---normalizers
+|   |   |   |   |   +---built
+|   |   |   |   |   |   +---app
+|   |   |   |   |   |   \---pages
+|   |   |   |   |   \---request
+|   |   |   |   +---og
+|   |   |   |   +---request
+|   |   |   |   +---response-cache
+|   |   |   |   +---resume-data-cache
+|   |   |   |   +---route-definitions
+|   |   |   |   +---route-matcher-managers
+|   |   |   |   +---route-matcher-providers
+|   |   |   |   |   +---dev
+|   |   |   |   |   |   \---helpers
+|   |   |   |   |   |       \---file-reader
+|   |   |   |   |   \---helpers
+|   |   |   |   |       \---manifest-loaders
+|   |   |   |   +---route-matchers
+|   |   |   |   +---route-matches
+|   |   |   |   +---route-modules
+|   |   |   |   |   +---app-page
+|   |   |   |   |   |   \---vendored
+|   |   |   |   |   |       +---contexts
+|   |   |   |   |   |       +---rsc
+|   |   |   |   |   |       \---ssr
+|   |   |   |   |   +---app-route
+|   |   |   |   |   |   \---helpers
+|   |   |   |   |   +---pages
+|   |   |   |   |   |   +---builtin
+|   |   |   |   |   |   \---vendored
+|   |   |   |   |   |       \---contexts
+|   |   |   |   |   \---pages-api
+|   |   |   |   +---stream-utils
+|   |   |   |   +---typescript
+|   |   |   |   |   \---rules
+|   |   |   |   +---use-cache
+|   |   |   |   \---web
+|   |   |   |       +---exports
+|   |   |   |       +---sandbox
+|   |   |   |       \---spec-extension
+|   |   |   |           \---adapters
+|   |   |   +---shared
+|   |   |   |   \---lib
+|   |   |   |       +---i18n
+|   |   |   |       +---isomorphic
+|   |   |   |       +---lazy-dynamic
+|   |   |   |       +---page-path
+|   |   |   |       +---router
+|   |   |   |       |   \---utils
+|   |   |   |       +---segment-cache
+|   |   |   |       +---turbopack
+|   |   |   |       \---utils
+|   |   |   +---styled-jsx
+|   |   |   |   \---types
+|   |   |   +---telemetry
+|   |   |   |   \---events
+|   |   |   \---trace
+|   |   |       \---report
+|   |   +---experimental
+|   |   |   +---testing
+|   |   |   \---testmode
+|   |   |       \---playwright
+|   |   +---font
+|   |   |   +---google
+|   |   |   \---local
+|   |   +---image-types
+|   |   +---legacy
+|   |   +---navigation-types
+|   |   |   \---compat
+|   |   +---node_modules
+|   |   |   \---postcss
+|   |   |       \---lib
+|   |   \---types
+|   +---next-themes
+|   |   \---dist
+|   +---node-releases
+|   |   \---data
+|   |       +---processed
+|   |       \---release-schedule
+|   +---normalize-path
+|   +---normalize-range
+|   +---object-assign
+|   +---object-hash
+|   |   \---dist
+|   +---package-json-from-dist
+|   |   \---dist
+|   |       +---commonjs
+|   |       \---esm
+|   +---path-key
+|   +---path-parse
+|   +---path-scurry
+|   |   \---dist
+|   |       +---commonjs
+|   |       \---esm
+|   +---picocolors
+|   +---picomatch
+|   |   \---lib
+|   +---pify
+|   +---pirates
+|   |   \---lib
+|   +---postcss
+|   |   \---lib
+|   +---postcss-import
+|   |   \---lib
+|   +---postcss-js
+|   +---postcss-load-config
+|   |   \---src
+|   +---postcss-nested
+|   +---postcss-selector-parser
+|   |   \---dist
+|   |       +---selectors
+|   |       \---util
+|   +---postcss-value-parser
+|   |   \---lib
+|   +---prop-types
+|   |   +---lib
+|   |   \---node_modules
+|   |       \---react-is
+|   |           +---cjs
+|   |           \---umd
+|   +---queue-microtask
+|   +---react
+|   |   \---cjs
+|   +---react-day-picker
+|   |   +---dist
+|   |   \---src
+|   |       +---components
+|   |       |   +---Button
+|   |       |   +---Caption
+|   |       |   +---CaptionDropdowns
+|   |       |   +---CaptionLabel
+|   |       |   +---CaptionNavigation
+|   |       |   +---Day
+|   |       |   +---DayContent
+|   |       |   +---Dropdown
+|   |       |   +---Footer
+|   |       |   +---Head
+|   |       |   +---HeadRow
+|   |       |   |   \---utils
+|   |       |   +---IconDropdown
+|   |       |   +---IconLeft
+|   |       |   +---IconRight
+|   |       |   +---Month
+|   |       |   +---Months
+|   |       |   +---MonthsDropdown
+|   |       |   |   \---__snapshots__
+|   |       |   +---Navigation
+|   |       |   +---Root
+|   |       |   +---Row
+|   |       |   +---Table
+|   |       |   |   +---utils
+|   |       |   |   \---__snapshots__
+|   |       |   +---WeekNumber
+|   |       |   |   \---__snapshots__
+|   |       |   \---YearsDropdown
+|   |       |       \---__snapshots__
+|   |       +---contexts
+|   |       |   +---DayPicker
+|   |       |   |   +---formatters
+|   |       |   |   +---labels
+|   |       |   |   \---utils
+|   |       |   +---Focus
+|   |       |   |   \---utils
+|   |       |   +---Modifiers
+|   |       |   |   \---utils
+|   |       |   +---Navigation
+|   |       |   |   \---utils
+|   |       |   +---SelectMultiple
+|   |       |   +---SelectRange
+|   |       |   |   \---utils
+|   |       |   \---SelectSingle
+|   |       +---hooks
+|   |       |   +---useActiveModifiers
+|   |       |   +---useControlledValue
+|   |       |   +---useDayEventHandlers
+|   |       |   +---useDayRender
+|   |       |   |   \---utils
+|   |       |   +---useId
+|   |       |   +---useInput
+|   |       |   |   \---utils
+|   |       |   \---useSelectedDays
+|   |       \---types
+|   +---react-dom
+|   |   \---cjs
+|   +---react-hook-form
+|   |   \---dist
+|   |       +---logic
+|   |       +---types
+|   |       |   \---path
+|   |       +---utils
+|   |       \---__typetest__
+|   |           +---path
+|   |           \---__fixtures__
+|   +---react-is
+|   |   +---cjs
+|   |   \---umd
+|   +---react-remove-scroll
+|   |   +---dist
+|   |   |   +---es2015
+|   |   |   +---es2019
+|   |   |   \---es5
+|   |   +---sidecar
+|   |   \---UI
+|   +---react-remove-scroll-bar
+|   |   +---constants
+|   |   \---dist
+|   |       +---es2015
+|   |       +---es2019
+|   |       \---es5
+|   +---react-resizable-panels
+|   |   \---dist
+|   |       \---declarations
+|   |           \---src
+|   |               \---utils
+|   |                   +---dom
+|   |                   \---rects
+|   +---react-smooth
+|   |   +---es6
+|   |   +---lib
+|   |   +---src
+|   |   \---umd
+|   +---react-style-singleton
+|   |   \---dist
+|   |       +---es2015
+|   |       +---es2019
+|   |       \---es5
+|   +---react-transition-group
+|   |   +---cjs
+|   |   |   \---utils
+|   |   +---config
+|   |   +---CSSTransition
+|   |   +---dist
+|   |   +---esm
+|   |   |   \---utils
+|   |   +---ReplaceTransition
+|   |   +---SwitchTransition
+|   |   +---Transition
+|   |   +---TransitionGroup
+|   |   \---TransitionGroupContext
+|   +---read-cache
+|   +---readdirp
+|   +---recharts
+|   |   +---es6
+|   |   |   +---cartesian
+|   |   |   +---chart
+|   |   |   +---component
+|   |   |   +---container
+|   |   |   +---context
+|   |   |   +---numberAxis
+|   |   |   +---polar
+|   |   |   +---shape
+|   |   |   \---util
+|   |   |       +---cursor
+|   |   |       +---payload
+|   |   |       \---tooltip
+|   |   +---lib
+|   |   |   +---cartesian
+|   |   |   +---chart
+|   |   |   +---component
+|   |   |   +---container
+|   |   |   +---context
+|   |   |   +---numberAxis
+|   |   |   +---polar
+|   |   |   +---shape
+|   |   |   \---util
+|   |   |       +---cursor
+|   |   |       +---payload
+|   |   |       \---tooltip
+|   |   +---types
+|   |   |   +---cartesian
+|   |   |   +---chart
+|   |   |   +---component
+|   |   |   +---container
+|   |   |   +---context
+|   |   |   +---numberAxis
+|   |   |   +---polar
+|   |   |   +---shape
+|   |   |   \---util
+|   |   |       +---cursor
+|   |   |       +---payload
+|   |   |       \---tooltip
+|   |   \---umd
+|   +---recharts-scale
+|   |   +---es6
+|   |   |   \---util
+|   |   +---lib
+|   |   |   \---util
+|   |   +---src
+|   |   |   \---util
+|   |   \---umd
+|   +---resolve
+|   |   +---.github
+|   |   +---bin
+|   |   +---example
+|   |   +---lib
+|   |   \---test
+|   |       +---dotdot
+|   |       |   \---abc
+|   |       +---module_dir
+|   |       |   +---xmodules
+|   |       |   |   \---aaa
+|   |       |   +---ymodules
+|   |       |   |   \---aaa
+|   |       |   \---zmodules
+|   |       |       \---bbb
+|   |       +---node_path
+|   |       |   +---x
+|   |       |   |   +---aaa
+|   |       |   |   \---ccc
+|   |       |   \---y
+|   |       |       +---bbb
+|   |       |       \---ccc
+|   |       +---pathfilter
+|   |       |   \---deep_ref
+|   |       +---precedence
+|   |       |   +---aaa
+|   |       |   \---bbb
+|   |       +---resolver
+|   |       |   +---baz
+|   |       |   +---browser_field
+|   |       |   +---dot_main
+|   |       |   +---dot_slash_main
+|   |       |   +---false_main
+|   |       |   +---incorrect_main
+|   |       |   +---invalid_main
+|   |       |   +---multirepo
+|   |       |   |   \---packages
+|   |       |   |       +---package-a
+|   |       |   |       \---package-b
+|   |       |   +---nested_symlinks
+|   |       |   |   \---mylib
+|   |       |   +---other_path
+|   |       |   |   \---lib
+|   |       |   +---quux
+|   |       |   |   \---foo
+|   |       |   +---same_names
+|   |       |   |   \---foo
+|   |       |   +---symlinked
+|   |       |   |   +---package
+|   |       |   |   \---_
+|   |       |   |       +---node_modules
+|   |       |   |       \---symlink_target
+|   |       |   \---without_basedir
+|   |       \---shadowed_core
+|   |           \---node_modules
+|   |               \---util
+|   +---reusify
+|   |   +---.github
+|   |   |   \---workflows
+|   |   \---benchmarks
+|   +---run-parallel
+|   +---scheduler
+|   |   \---cjs
+|   +---semver
+|   |   +---bin
+|   |   +---classes
+|   |   +---functions
+|   |   +---internal
+|   |   \---ranges
+|   +---sharp
+|   |   +---install
+|   |   +---lib
+|   |   \---src
+|   +---shebang-command
+|   +---shebang-regex
+|   +---signal-exit
+|   |   \---dist
+|   |       +---cjs
+|   |       \---mjs
+|   +---simple-swizzle
+|   +---sonner
+|   |   \---dist
+|   +---source-map-js
+|   |   \---lib
+|   +---streamsearch
+|   |   +---.github
+|   |   |   \---workflows
+|   |   +---lib
+|   |   \---test
+|   +---string-width
+|   +---string-width-cjs
+|   |   \---node_modules
+|   |       +---ansi-regex
+|   |       +---emoji-regex
+|   |       |   \---es2015
+|   |       \---strip-ansi
+|   +---strip-ansi
+|   +---strip-ansi-cjs
+|   |   \---node_modules
+|   |       \---ansi-regex
+|   +---styled-jsx
+|   |   +---dist
+|   |   |   +---babel
+|   |   |   +---index
+|   |   |   \---webpack
+|   |   \---lib
+|   +---sucrase
+|   |   +---bin
+|   |   +---dist
+|   |   |   +---esm
+|   |   |   |   +---parser
+|   |   |   |   |   +---plugins
+|   |   |   |   |   |   \---jsx
+|   |   |   |   |   +---tokenizer
+|   |   |   |   |   +---traverser
+|   |   |   |   |   \---util
+|   |   |   |   +---transformers
+|   |   |   |   \---util
+|   |   |   +---parser
+|   |   |   |   +---plugins
+|   |   |   |   |   \---jsx
+|   |   |   |   +---tokenizer
+|   |   |   |   +---traverser
+|   |   |   |   \---util
+|   |   |   +---transformers
+|   |   |   +---types
+|   |   |   |   +---parser
+|   |   |   |   |   +---plugins
+|   |   |   |   |   |   \---jsx
+|   |   |   |   |   +---tokenizer
+|   |   |   |   |   +---traverser
+|   |   |   |   |   \---util
+|   |   |   |   +---transformers
+|   |   |   |   \---util
+|   |   |   \---util
+|   |   +---register
+|   |   \---ts-node-plugin
+|   +---supports-preserve-symlinks-flag
+|   |   +---.github
+|   |   \---test
+|   +---tailwind-merge
+|   |   +---dist
+|   |   |   \---es5
+|   |   \---src
+|   |       \---lib
+|   +---tailwindcss
+|   |   +---lib
+|   |   |   +---cli
+|   |   |   |   +---build
+|   |   |   |   +---help
+|   |   |   |   \---init
+|   |   |   +---css
+|   |   |   +---lib
+|   |   |   +---postcss-plugins
+|   |   |   |   \---nesting
+|   |   |   +---public
+|   |   |   +---util
+|   |   |   \---value-parser
+|   |   +---nesting
+|   |   +---peers
+|   |   +---scripts
+|   |   +---src
+|   |   |   +---cli
+|   |   |   |   +---build
+|   |   |   |   +---help
+|   |   |   |   \---init
+|   |   |   +---css
+|   |   |   +---lib
+|   |   |   +---postcss-plugins
+|   |   |   |   \---nesting
+|   |   |   +---public
+|   |   |   +---util
+|   |   |   \---value-parser
+|   |   +---stubs
+|   |   \---types
+|   |       \---generated
+|   +---tailwindcss-animate
+|   +---thenify
+|   +---thenify-all
+|   +---tiny-invariant
+|   |   +---dist
+|   |   |   \---esm
+|   |   \---src
+|   +---to-regex-range
+|   +---ts-interface-checker
+|   |   \---dist
+|   +---tslib
+|   |   \---modules
+|   +---typescript
+|   |   +---bin
+|   |   \---lib
+|   |       +---cs
+|   |       +---de
+|   |       +---es
+|   |       +---fr
+|   |       +---it
+|   |       +---ja
+|   |       +---ko
+|   |       +---pl
+|   |       +---pt-br
+|   |       +---ru
+|   |       +---tr
+|   |       +---zh-cn
+|   |       \---zh-tw
+|   +---undici-types
+|   +---update-browserslist-db
+|   +---use-callback-ref
+|   |   \---dist
+|   |       +---es2015
+|   |       +---es2019
+|   |       \---es5
+|   +---use-sidecar
+|   |   \---dist
+|   |       +---es2015
+|   |       +---es2019
+|   |       \---es5
+|   +---use-sync-external-store
+|   |   +---cjs
+|   |   |   \---use-sync-external-store-shim
+|   |   \---shim
+|   +---util-deprecate
+|   +---vaul
+|   |   \---dist
+|   +---victory-vendor
+|   |   +---es
+|   |   +---lib
+|   |   \---lib-vendor
+|   |       +---d3-array
+|   |       |   \---src
+|   |       |       \---threshold
+|   |       +---d3-color
+|   |       |   \---src
+|   |       +---d3-ease
+|   |       |   \---src
+|   |       +---d3-format
+|   |       |   \---src
+|   |       +---d3-interpolate
+|   |       |   \---src
+|   |       |       \---transform
+|   |       +---d3-path
+|   |       |   \---src
+|   |       +---d3-scale
+|   |       |   \---src
+|   |       +---d3-shape
+|   |       |   \---src
+|   |       |       +---curve
+|   |       |       +---offset
+|   |       |       +---order
+|   |       |       \---symbol
+|   |       +---d3-time
+|   |       |   \---src
+|   |       +---d3-time-format
+|   |       |   \---src
+|   |       +---d3-timer
+|   |       |   \---src
+|   |       +---d3-voronoi
+|   |       |   \---src
+|   |       \---internmap
+|   |           \---src
+|   +---which
+|   |   \---bin
+|   +---wrap-ansi
+|   +---wrap-ansi-cjs
+|   |   \---node_modules
+|   |       +---ansi-regex
+|   |       +---ansi-styles
+|   |       +---emoji-regex
+|   |       |   \---es2015
+|   |       +---string-width
+|   |       \---strip-ansi
+|   +---yaml
+|   |   +---browser
+|   |   |   \---dist
+|   |   |       +---compose
+|   |   |       +---doc
+|   |   |       +---nodes
+|   |   |       +---parse
+|   |   |       +---schema
+|   |   |       |   +---common
+|   |   |       |   +---core
+|   |   |       |   +---json
+|   |   |       |   \---yaml-1.1
+|   |   |       \---stringify
+|   |   \---dist
+|   |       +---compose
+|   |       +---doc
+|   |       +---nodes
+|   |       +---parse
+|   |       +---schema
+|   |       |   +---common
+|   |       |   +---core
+|   |       |   +---json
+|   |       |   \---yaml-1.1
+|   |       \---stringify
+|   \---zod
+|       +---dist
+|       |   +---cjs
+|       |   |   +---v3
+|       |   |   |   +---benchmarks
+|       |   |   |   +---helpers
+|       |   |   |   +---locales
+|       |   |   |   \---tests
+|       |   |   \---v4
+|       |   |       +---classic
+|       |   |       +---core
+|       |   |       +---locales
+|       |   |       \---mini
+|       |   +---esm
+|       |   |   +---v3
+|       |   |   |   +---benchmarks
+|       |   |   |   +---helpers
+|       |   |   |   +---locales
+|       |   |   |   \---tests
+|       |   |   \---v4
+|       |   |       +---classic
+|       |   |       +---core
+|       |   |       +---locales
+|       |   |       \---mini
+|       |   \---types
+|       |       +---v3
+|       |       |   +---benchmarks
+|       |       |   +---helpers
+|       |       |   +---locales
+|       |       |   \---tests
+|       |       \---v4
+|       |           +---classic
+|       |           +---core
+|       |           +---locales
+|       |           \---mini
+|       +---v3
+|       +---v4
+|       |   +---core
+|       |   \---locales
+|       \---v4-mini
++---public
+\---styles
