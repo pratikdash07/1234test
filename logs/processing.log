@@ -12534,3 +12534,24 @@
 2025-06-25 19:33:02,842 - INFO - HTTP Request: POST http://localhost:8000/api/langflow/trigger "HTTP/1.1 400 Bad Request"
 2025-06-25 19:33:02,843 - INFO - Triggered workflow json: {'detail': 'workflowId is required'}
 2025-06-25 19:33:02,844 - INFO - Job "trigger_workflow (trigger: cron[minute='*/1'], next run at: 2025-06-25 19:34:00 IST)" executed successfully
+2025-06-26 19:45:30,456 - INFO - Scheduler started
+2025-06-26 19:45:30,470 - INFO - Added job "trigger_workflow" to job store "default"
+2025-06-26 19:45:30,470 - INFO - Added job "trigger_workflow" to job store "default"
+2025-06-26 19:45:30,470 - INFO - Added job "trigger_workflow" to job store "default"
+2025-06-26 19:45:30,470 - INFO - Added job "trigger_workflow" to job store "default"
+2025-06-26 19:46:00,009 - INFO - Running job "trigger_workflow (trigger: cron[minute='*/1'], next run at: 2025-06-26 19:46:00 IST)" (scheduled at 2025-06-26 19:46:00+05:30)
+2025-06-26 19:46:00,011 - INFO - Running job "trigger_workflow (trigger: cron[minute='*/1'], next run at: 2025-06-26 19:46:00 IST)" (scheduled at 2025-06-26 19:46:00+05:30)
+2025-06-26 19:46:00,012 - INFO - Running job "trigger_workflow (trigger: cron[minute='*/1'], next run at: 2025-06-26 19:46:00 IST)" (scheduled at 2025-06-26 19:46:00+05:30)
+2025-06-26 19:46:00,013 - INFO - Running job "trigger_workflow (trigger: cron[minute='*/1'], next run at: 2025-06-26 19:46:00 IST)" (scheduled at 2025-06-26 19:46:00+05:30)
+2025-06-26 19:46:03,268 - INFO - HTTP Request: POST http://localhost:8000/api/langflow/trigger "HTTP/1.1 400 Bad Request"
+2025-06-26 19:46:03,269 - INFO - Triggered workflow pdf: {'detail': 'workflowId is required'}
+2025-06-26 19:46:03,269 - INFO - Job "trigger_workflow (trigger: cron[minute='*/1'], next run at: 2025-06-26 19:47:00 IST)" executed successfully
+2025-06-26 19:46:03,310 - INFO - HTTP Request: POST http://localhost:8000/api/langflow/trigger "HTTP/1.1 400 Bad Request"
+2025-06-26 19:46:03,311 - INFO - Triggered workflow classifier: {'detail': 'workflowId is required'}
+2025-06-26 19:46:03,311 - INFO - Job "trigger_workflow (trigger: cron[minute='*/1'], next run at: 2025-06-26 19:47:00 IST)" executed successfully
+2025-06-26 19:46:03,311 - INFO - HTTP Request: POST http://localhost:8000/api/langflow/trigger "HTTP/1.1 400 Bad Request"
+2025-06-26 19:46:03,312 - INFO - Triggered workflow json: {'detail': 'workflowId is required'}
+2025-06-26 19:46:03,312 - INFO - Job "trigger_workflow (trigger: cron[minute='*/1'], next run at: 2025-06-26 19:47:00 IST)" executed successfully
+2025-06-26 19:46:03,312 - INFO - HTTP Request: POST http://localhost:8000/api/langflow/trigger "HTTP/1.1 400 Bad Request"
+2025-06-26 19:46:03,313 - INFO - Triggered workflow email: {'detail': 'workflowId is required'}
+2025-06-26 19:46:03,313 - INFO - Job "trigger_workflow (trigger: cron[minute='*/1'], next run at: 2025-06-26 19:47:00 IST)" executed successfully
